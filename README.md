@@ -1,2 +1,2 @@
-Website of the Bitcoin Association Switzerland
+Bitcoin Association Switzerland Website
 =======
