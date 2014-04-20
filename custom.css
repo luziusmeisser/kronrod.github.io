@@ -2,12 +2,6 @@ body {
   padding-top: 40px;
   padding-bottom: 20px;
 }
-.navbar {
-  background-color: #fff
-}
-.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-   background-color: #eee;
-}
 .jumbotron { 
   background-color: #D7423D}
 .jumbotron h1 {
