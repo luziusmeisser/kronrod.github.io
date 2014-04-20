@@ -5,7 +5,7 @@ body {
 .navbar {
   background-color: #fff
 }
-.navbar .navbar-nav > a:hover, .navbar-default .navbar-nav > a:focus {
+.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
    background-color: #eee;
 }
 .jumbotron { 
