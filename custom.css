@@ -1,8 +1,8 @@
 body {
-  padding-top: 400px;
+  padding-top: 40px;
   padding-bottom: 20px;
 }
-.navbar-inner {
+.navbar {
   background-color: #fff
 }
 .jumbotron { 
