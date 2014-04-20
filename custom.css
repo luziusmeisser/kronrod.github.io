@@ -2,8 +2,12 @@ body {
   padding-top: 40px;
   padding-bottom: 20px;
 }
+.navbar-inner {
+  background-color: #fff
+}
 .jumbotron { 
   background-color: #D7423D}
 .jumbotron h1 {
   color: #fff;
 }
+
