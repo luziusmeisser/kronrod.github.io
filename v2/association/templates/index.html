@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li class="active">{% trans "Home" %}</li>
+{% endblock %}
+
+{% block title %}
+<style type="text/css">
+ .jumbotron h1 {
+    color: #D7423D;
+}
+.jumbotron h1 {
+    font-size: 55px;
+}</style>
+    <div class="jumbotron">
+      <div class="container">
+          <!-- <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"> -->
+          <!--   <img src="flag.svg" type="image/svg+xml" alt="Swiss Flag"> -->
+          <!-- </div> -->
+          <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+            <h1>Bitcoin Association Switzerland</h1>
+              <p>Founded in 2013 to pave the way for Bitcoin in Switzerland.</p>
+          </div>
+      </div>
+    </div>
+{% endblock %}
+
+{% block main %}
+{% blocktrans %}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 col-md-9 col-sm-9">
+          <h2>Our Mission</h2>
+          <p>We form an active community of enthusiasts with regular events, try to resolve open legal questions, and educate the public by providing a contact point for media inquiries and by already having presented Bitcoin at dozens of 3rd party events.<br><br>
+
+          Bitcoin has the potential not only to revolutionize online payments, but also to give control over their financial transactions and assets back to individuals, and to serve as an asset with exceptionally strong property guarantees. Furthermore, its technology has the potential to serve as a platform for countless other services that can benefit from decentralized consensus and cryptographically secure tracking of property. As an Association, we want to pave the way for Bitcoin to flourish and unfold its full potential.</p>
+          
+          <h2>Lifetime Members</h2>
+      <a href="http://bitc.ch/"><img src="/static/media/uploads/bitc.png" alt="BITC Logo" height="100"></a>
+          <a href="https://bitcoinsuisse.ch/"><img src="/static/media/uploads/bitcoinsuisse.png" alt="Bitcoin Suisse AG Logo" height="100"></a>
+          <a href="http://monetas.net/"><img src="/static/media/uploads/monetas.png" alt="Monetas Logo" height="100"></a>
+<br>
+<br>
+      <a href="http://btcsuisse.ch/"><img src="/static/media/uploads/btcsuisse.gif" alt="BTC Suisse Logo" height="100"></a>
+      <a href="http://sbex.ch//"><img src="/static/media/uploads/sbex.jpg" alt="SBEX Logo" height="100"></a>
+      <a href="http://digithink.ch/"><img src="/static/media/uploads/Digithink.png" alt="DigiThink Logo" height="100"></a>
+      <h2>Digital Finance Compliance Association</h2>
+          <p>For corporate advice on regulation and compliance, we recommend to get in touch with the <a href="http://dfca.ch">Digital Finance Compliance Association</a>, an industry consortium of crypto-currency companies in Switzerland.</p>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+
+{% endblocktrans %}
+{% endblock %}
