@@ -7,3 +7,15 @@ body {
   color: #D7423D;
 }
 
+.members{display:inline;float:left;width:100%;margin-left:0%;margin-right:0%;*zoom:1;margin-bottom:1em;text-align:center}
+.members:before,
+.members:after{display:table;content:"";line-height:0}
+.members:after{clear:both}
+.members h2,
+.members h3,
+.members h4{margin-bottom:0.3em}
+.members .fa{margin-right:5px}@media only screen and (min-width: 37.5em){
+    .members div{display:inline;float:left;width:25%}}
+/*.members div:last-child{text-align:right}*/
+/*.members div:first-child{text-align:left}*/
+.members ul{margin:0;padding:0;clear:both;list-style-type:none}
