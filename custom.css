@@ -19,3 +19,16 @@ body {
 /*.members div:last-child{text-align:right}*/
 /*.members div:first-child{text-align:left}*/
 .members ul{margin:0;padding:0;clear:both;list-style-type:none}
+
+.lifetime_members{display:inline;float:left;width:100%;margin-left:0%;margin-right:0%;*zoom:1;margin-bottom:1em;text-align:center}
+.lifetime_members:before,
+.lifetime_members:after{display:table;content:"";line-height:0}
+.lifetime_members:after{clear:both}
+.lifetime_members h2,
+.lifetime_members h3,
+.lifetime_members h4{margin-bottom:0.3em}
+.lifetime_members .fa{margin-right:5px}@media only screen and (min-width: 37.5em){
+    .lifetime_members div{display:inline;float:left;width:33%}}
+/*.members div:last-child{text-align:right}*/
+/*.members div:first-child{text-align:left}*/
+.lifetime_members ul{margin:50;padding:50;clear:both;list-style-type:none}
