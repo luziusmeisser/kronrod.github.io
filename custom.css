@@ -32,3 +32,16 @@ body {
 /*.members div:last-child{text-align:right}*/
 /*.members div:first-child{text-align:left}*/
 .lifetime_members ul{margin:50;padding:50;clear:both;list-style-type:none}
+
+.members_benefits{display:inline;float:left;width:100%;margin-left:3%;margin-right:0%;*zoom:1;margin-bottom:1em;text-align:left}
+.members_benefits:before,
+.members_benefits:after{display:table;content:"";line-height:0}
+.members_benefits:after{clear:both}
+.members_benefits h2,
+.members_benefits h3,
+.members_benefits h4{margin-bottom:0.3em}
+.members_benefits .fa{margin-right:5px}@media only screen and (min-width: 37.5em){
+    .members_benefits div{display:inline;float:left;width:33%}}
+/*.members div:last-child{text-align:right}*/
+/*.members div:first-child{text-align:left}*/
+.members_benefits ul{margin:0;padding:0;clear:both;}
