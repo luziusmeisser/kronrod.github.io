@@ -45,3 +45,11 @@ body {
 /*.members div:last-child{text-align:right}*/
 /*.members div:first-child{text-align:left}*/
 .members_benefits ul{margin:0;padding:0;clear:both;}
+
+.wrap {
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+}
