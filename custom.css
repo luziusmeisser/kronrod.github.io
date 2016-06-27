@@ -7,6 +7,10 @@ body {
   color: #D7423D;
 }
 
+.company-logo {
+    max-height: 100px;
+}
+
 .members{display:inline;float:left;width:100%;margin-left:0%;margin-right:0%;*zoom:1;margin-bottom:1em;text-align:center}
 .members:before,
 .members:after{display:table;content:"";line-height:0}
